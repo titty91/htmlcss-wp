@@ -96,14 +96,13 @@ section{
 }
 
 /* contenuto dei 3 blocchi */
-.contain{
+#contain{
   margin-bottom: 10px;
   /* background-color: green; */
 }
 
 .box{
   height: 350px;
-  background-color: pink;
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -116,9 +115,10 @@ section{
 
 .box img {
   width:100%;
-  height: auto;
-  background-size: cover;
+  height: 200px;
   border-radius: 8px;
+  object-fit: cover;
+
 }
 
 .box p{
