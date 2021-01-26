@@ -1,0 +1,76 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* intestazione */
+header{
+  height: 100px;
+  background-color: yellow;
+  width: 70%;
+  margin: 0 auto;
+}
+
+/* forzatura per il contain */
+.contain::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* corpo del sito */
+
+main{
+  background-color: blue;
+}
+section{
+  width: 70%;
+  margin: 0 auto;
+}
+
+.headerimg{
+  background-color: red;
+  height: 300px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.titolo{
+  background-color: pink;
+  height: 40px;
+  margin: 0 auto;
+}
+
+.contain{
+  background-color: green;
+  margin-bottom: 10px;
+}
+
+.box{
+  height: 350px;
+  background-color: pink;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.laterale{
+  float: left;
+  width: 20%;
+}
+
+.central{
+  float: left;
+  width: 50%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+
+/* piè di pagina */
+footer{
+  width: 70%;
+  background-color: blue;
+  height: 80px;
+  margin: 0 auto;
+
+}
