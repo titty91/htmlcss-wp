@@ -84,13 +84,16 @@ section{
   font-size: 10px;
 }
 
-
+/* sezione del titolo */
 .titolo{
-  background-color: pink;
   height: 60px;
   margin: 0 auto;
 }
-
+.titolo>p{
+  font-size: 10px;
+  color: #808080;
+}
+/* contenuto dei 3 blocchi */
 .contain{
   background-color: green;
   margin-bottom: 10px;
