@@ -9,7 +9,6 @@ body{
 /* intestazione */
 header{
   height: 100px;
-  /* background-color: yellow; */
   width: 70%;
   margin: 0 auto;
 }
@@ -114,7 +113,8 @@ section{
   width: 20%;
 }
 
-.box img{
+
+.box img {
   width:100%;
   height: auto;
   background-size: cover;
@@ -138,8 +138,9 @@ section{
 /* piè di pagina */
 footer{
   width: 70%;
-  background-color: blue;
   height: 80px;
   margin: 0 auto;
-
+  font-size: 10px;
+  text-align: center;
+  color:
 }
