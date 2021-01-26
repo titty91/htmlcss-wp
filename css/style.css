@@ -76,7 +76,6 @@ section{
   margin: 0 20px;
   position: absolute;
   bottom: 20px;
-
 }
 
 .testo p{
@@ -99,8 +98,8 @@ section{
 
 /* contenuto dei 3 blocchi */
 .contain{
-  background-color: green;
   margin-bottom: 10px;
+  /* background-color: green; */
 }
 
 .box{
@@ -114,6 +113,19 @@ section{
   float: left;
   width: 20%;
 }
+
+.box img{
+  width:100%;
+  height: auto;
+  background-size: cover;
+  border-radius: 8px;
+}
+
+.box p{
+  font-size: 10px;
+  color: #808080;
+}
+
 
 .central{
   float: left;
