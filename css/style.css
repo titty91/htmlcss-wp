@@ -63,11 +63,12 @@ section{
 }
 
 .layover{
-  background-color: rgba(0, 0, 0, 0.2);
   width: 100%;
   height: 100%;
   border-radius: 8px;
   position: absolute;
+  background-color: rgba(0, 0, 0, 0.2);
+
 }
 
 .testo{
@@ -98,7 +99,6 @@ section{
 /* contenuto dei 3 blocchi */
 #contain{
   margin-bottom: 10px;
-  /* background-color: green; */
 }
 
 .box{
@@ -118,14 +118,19 @@ section{
   height: 200px;
   border-radius: 8px;
   object-fit: cover;
-
 }
+
 
 .box p{
   font-size: 10px;
   color: #808080;
 }
 
+.foto{
+  position: relative;
+  width:100%;
+  height:
+}
 
 .central{
   float: left;
