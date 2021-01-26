@@ -3,13 +3,39 @@
   padding: 0;
 }
 
+body{
+  font-family: 'Montserrat', sans-serif;
+}
 /* intestazione */
 header{
   height: 100px;
-  background-color: yellow;
+  /* background-color: yellow; */
   width: 70%;
   margin: 0 auto;
 }
+
+a img{
+  height: 50px;
+  width: auto;
+  /* linea grigia verticale */
+  padding-right: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #808080;
+  border-top: 0;
+  border-left: 0;
+  border-bottom:0;
+}
+
+nav ul li{
+  font-size: 10px;
+  color: #808080;
+  display: inline-block;
+  margin-top: 20px;
+
+
+}
+
 
 /* forzatura per il contain */
 .contain::after{
@@ -20,9 +46,6 @@ header{
 
 /* corpo del sito */
 
-main{
-  background-color: blue;
-}
 section{
   width: 70%;
   margin: 0 auto;
@@ -30,14 +53,17 @@ section{
 
 .headerimg{
   background-color: red;
+  background-size: cover;
   height: 300px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
+
+
 .titolo{
   background-color: pink;
-  height: 40px;
+  height: 60px;
   margin: 0 auto;
 }
 
